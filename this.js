@@ -1,10 +1,16 @@
 
+/*
 
-//1
+    A brief intro to "this" keyword with some examples. 
+
+*/
+
+
+//EXAMPLE 1
 console.log(this);
 
 
-//2
+//EXAMPLE 2
 calculateAge(2000); 
 
 function calculateAge(year){
@@ -18,7 +24,7 @@ function calculateAge(year){
 }
 
 
-//3 
+//EXAMPLE 3 
 var john = {
     name : "John Atanasoff", 
     yearOfBirth : 1903, 
@@ -35,7 +41,7 @@ var john = {
 
 john.calculateAge(); 
 
-//4
+//EXAMPLE 4
 var steve =  {
     name: "Steve Jobbs",
     yearOfBirth : 1955, 
